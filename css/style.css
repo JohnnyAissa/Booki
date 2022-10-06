@@ -1,0 +1,402 @@
+:root {
+    --main_blue: #0065fc; /* var(--main_blue) */
+    --light_blue: #deebff; /* var(--light_blue) */
+    --grey: #d9d9d9; /* var(--grey) */
+    --light_grey: #f2f2f2; /* var(--light_grey) */
+}
+
+.direction_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+body {
+    max-width: 1400px;
+    font-family: "raleway", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    padding: 0 3%;
+}
+
+h1,
+h2 {
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+
+/*header*/
+
+header {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 61px;
+    height: 19px;
+}
+
+header nav {
+    height: 100%;
+    font-size: 16px;
+    display: flex;
+}
+
+header nav a {
+    padding: 40px;
+    border-top: solid #ffffff 2px;
+}
+
+header nav a:hover {
+    color: var(--main_blue);
+    border-top: solid var(--main_blue) 2px;
+    font-weight: 500;
+}
+
+/*search bar*/
+
+form {
+    padding: 20px 0;
+}
+
+form {
+    display: flex;
+}
+
+form label i {
+    width: 52px;
+    height: 49px;
+    border-radius: 15px 0 0 15px;
+    background-color: var(--light_grey);
+    padding-left: 20px;
+    padding-top: 23px;
+}
+
+input {
+    width: 18%;
+    border: solid 1px var(--light_grey);
+}
+
+input[type="text"] {
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+form button {
+    background-color: var(--main_blue);
+    border: none;
+    border-radius: 0 15px 15px 0;
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.desktop_search_button {
+    padding: 0 1%;
+}
+
+.mobile_search_button i {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 15px 15px 0;
+    color: #ffffff;
+}
+
+.mobile_search_button {
+    display: none;
+}
+
+/*filters*/
+
+#filters {
+    padding: 10px 1%;
+    gap: 3%;
+}
+
+#filters p {
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#filters button {
+    height: 50px;
+    border: solid var(--grey) 2px;
+    border-radius: 25px;
+    padding: 0 2% 0 2%;
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #ffffff;
+}
+
+#filters button i {
+    font-size: 21px;
+    margin-right: 10px;
+    color: var(--main_blue);
+}
+
+#filters button:hover {
+    background-color: var(--light_blue);
+}
+
+/*info*/
+
+#info {
+    display: flex;
+}
+
+#info .fa-info {
+    height: 24px;
+    width: 24px;
+    color: var(--main_blue);
+    font-size: 12px;
+    border: solid var(--grey) 1px;
+    border-radius: 12px;
+    padding: 4px 9px;
+
+    margin-right: 8px;
+}
+
+.info_txt {
+    display: inline-block;
+}
+
+#info {
+    padding: 30px 0 40px 0;
+}
+
+/*offers*/
+
+#offers {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.offers_article_background {
+    background-color: var(--light_grey);
+    border-radius: 20px;
+}
+
+#offers header {
+    height: 80px;
+}
+
+#offers header i {
+    color: var(--main_blue);
+    font-size: 20px;
+}
+
+#main_offers {
+    width: 70%;
+    padding: 2% 2% 0 2%;
+}
+
+#sponsored_offers {
+    width: 30%;
+    padding: 2%;
+}
+
+#offers h3 {
+    font-size: min(19px, calc(0.75 * 2vw));
+    padding: 4px 0;
+}
+
+#offers p {
+    font-size: min(17px, calc(0.65 * 2vw));
+}
+
+#main_offers .more {
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+    font-size: min(19px, calc(0.8 * 2vw));
+    height: 15%;
+}
+
+.euro {
+    font-family: "raleway", sans-serif;
+    font-weight: 700;
+}
+
+/*main offers card*/
+
+#main_offers_cards {
+    flex-wrap: wrap;
+    gap: 20px 3%;
+}
+
+#main_offers_cards a {
+    width: calc(94% / 3);
+}
+
+.main_offers_card {
+    width: 100%;
+    height: 17vw;
+    max-height: 210px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px #5a5a5a30;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_offers_card img {
+    width: 100%;
+    height: 60%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.main_offers_card_text_zone {
+    width: 100%;
+    height: 40%;
+    padding: 0 7%;
+    position: relative;
+}
+
+.main_offers_card .rating_bar {
+    position: absolute;
+    bottom: 4%;
+}
+
+/*sponsored offers cards*/
+
+#sponsored_offers_cards a {
+    width: 100%;
+}
+
+.sponsored_offers_card {
+    width: 100%;
+    height: 12vw;
+    max-height: 168px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px #5a5a5a30;
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.sponsored_offers_card img {
+    height: 100%;
+    width: 40%;
+    border-radius: 20px 0px 0px 20px;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.sponsored_offers_card_text_zone {
+    height: 100%;
+    width: 60%;
+    padding: 5%;
+}
+
+.sponsored_offers_card .rating_bar {
+    position: absolute;
+    bottom: 4%;
+}
+
+/*rating stars*/
+
+.fa-star {
+    font-size: min(16px, calc(0.55 * 2vw));
+}
+
+.blue_star {
+    color: var(--main_blue);
+}
+
+.grey_star {
+    color: var(--light_grey);
+}
+
+/*activities*/
+
+#activities {
+    margin: 5% 0;
+}
+
+aside header {
+    height: 55px;
+}
+
+#activities_cards {
+    gap: 3%;
+}
+
+/*activities card*/
+
+#activities a {
+    width: calc(91% / 4);
+}
+
+.activities_card {
+    width: 100%;
+    height: 32vw;
+    max-height: 512px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #5a5a5a30;
+    display: flex;
+    flex-direction: column;
+}
+
+.activities_card img {
+    width: 100%;
+    height: 85%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.activities_card_text_zone {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    padding: 0 6%;
+}
+
+.activities_card_text_zone h3 {
+    font-size: min(19px, calc(0.65 * 2vw));
+}
+
+.mobile_only_card {
+    display: none;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    background-color: var(--light_grey);
+    padding: 4% 6%;
+}
+
+footer nav h3 {
+    margin-bottom: 10%;
+}
+
+footer nav {
+    padding-right: 16%;
+    display: flex;
+    flex-direction: column;
+}

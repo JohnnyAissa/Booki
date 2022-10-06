@@ -1,0 +1,180 @@
+body {
+    padding: 0;
+}
+
+.intro_mobile_margin,
+footer {
+    padding: 30px 5%;
+}
+
+header {
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    margin-top: 20px;
+}
+
+header nav {
+    width: 100%;
+    height: 50%;
+}
+
+header nav a {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0 0 10px 0;
+    border-bottom: solid var(--light_grey) 2px;
+}
+
+header nav a:hover {
+    border-top: none;
+    border-bottom: solid var(--main_blue) 2px;
+}
+
+h1 {
+    padding-bottom: 10px;
+}
+
+form {
+    padding: 27px 0;
+}
+
+input {
+    width: 75%;
+}
+
+.desktop_search_button {
+    display: none;
+}
+
+.mobile_search_button {
+    display: block;
+}
+
+#filters {
+    flex-wrap: wrap;
+    padding: 0 1%;
+    gap: 15px 4%;
+}
+
+#filters p {
+    width: 100%;
+}
+
+#filters button {
+    width: 48%;
+    font-size: clamp(13px, 3vw, 20px);
+    overflow: hidden;
+}
+
+#filters button i {
+    font-size: 21px;
+}
+
+#info {
+    padding: 30px 0 0 0;
+}
+
+#main_offers,
+#sponsored_offers,
+#activities {
+    padding: 20px 5%;
+}
+
+#offers {
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+.offers_article_background {
+    border-radius: 0;
+}
+
+#offers h3 {
+    font-size: min(23px, calc(0.75 * 7vw));
+}
+
+#offers p {
+    font-size: min(20px, calc(0.65 * 7vw));
+}
+
+.fa-star {
+    font-size: min(17px, calc(0.55 * 7vw));
+}
+
+#sponsored_offers_cards {
+    flex-direction: column;
+    gap: 10px;
+}
+
+#sponsored_offers_cards a {
+    width: 100%;
+    height: 43vw;
+}
+
+.sponsored_offers_card {
+    height: 100%;
+    max-height: none;
+}
+
+#main_offers {
+    background-color: #ffffff;
+}
+
+#main_offers_cards {
+    flex-direction: column;
+}
+
+#main_offers_cards a {
+    width: 100%;
+    height: 59vw;
+}
+
+.main_offers_card {
+    height: 100%;
+    max-height: none;
+}
+
+#main_offers .more {
+    font-size: min(25px, calc(0.8 * 7vw));
+}
+
+.mobile_only_card {
+    display: block;
+}
+
+#activities_cards {
+    flex-direction: column;
+    gap: 20px;
+}
+
+#activities_cards a {
+    width: 100%;
+    height: 56vw;
+}
+
+.activities_card {
+    height: 100%;
+}
+
+.activities_card img {
+    height: 70%;
+}
+
+.activities_card_text_zone {
+    height: 30%;
+}
+
+.activities_card_text_zone h3 {
+    font-size: min(22px, calc(0.7 * 7vw));
+}
+
+footer {
+    flex-direction: column;
+    gap: 20px;
+}
