@@ -105,13 +105,13 @@ form button {
     color: #ffffff;
 }
 
-.desktop_search_button {
+form button .desktop_search_button {
     width: 132px;
     display: flex;
     justify-content: center;
 }
 
-.mobile_search_button {
+form button .mobile_search_button {
     width: 50px;
     display: flex;
     justify-content: center;

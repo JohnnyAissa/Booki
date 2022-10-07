@@ -48,11 +48,11 @@ input {
     width: 75%;
 }
 
-.desktop_search_button {
+form button .desktop_search_button {
     display: none;
 }
 
-.mobile_search_button {
+form button .mobile_search_button {
     display: inline-block;
 }
 
