@@ -10,6 +10,10 @@ input {
     gap: 2%;
 }
 
+#filters button {
+    font-size: calc(0.5rem + 1vw);
+}
+
 #offers {
     display: flex;
     flex-direction: column;
