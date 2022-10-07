@@ -91,7 +91,6 @@ input {
 }
 
 input[type="text"] {
-    font-family: "raleway", sans-serif;
     font-weight: 700;
     font-size: 1.8rem;
     padding-left: 15px;
@@ -101,7 +100,6 @@ form button {
     background-color: var(--main_blue);
     border: none;
     border-radius: 0 15px 15px 0;
-    font-family: "raleway", sans-serif;
     font-weight: 700;
     font-size: 1.8rem;
     color: #ffffff;
@@ -131,7 +129,6 @@ form button {
 }
 
 #filters p {
-    font-family: "raleway", sans-serif;
     font-weight: 700;
     font-size: 1.8rem;
 }
@@ -140,8 +137,7 @@ form button {
     height: 50px;
     border: solid var(--grey) 2px;
     border-radius: 25px;
-    padding: 0 2% 0 2%;
-    font-family: "raleway", sans-serif;
+    padding: 0 2%;
     font-weight: 700;
     font-size: 1.7rem;
     background-color: #ffffff;
@@ -226,14 +222,12 @@ form button {
 }
 
 #main_offers .more {
-    font-family: "raleway", sans-serif;
     font-weight: 700;
     font-size: min(1.6vw, 19px);
     height: 15%;
 }
 
 .euro {
-    font-family: "raleway", sans-serif;
     font-weight: 700;
 }
 
