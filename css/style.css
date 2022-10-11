@@ -1,8 +1,8 @@
 :root {
-    --main_blue: #0065fc; /* var(--main_blue) */
-    --light_blue: #deebff; /* var(--light_blue) */
-    --grey: #d9d9d9; /* var(--grey) */
-    --light_grey: #f2f2f2; /* var(--light_grey) */
+    --main_blue: #0065fc;
+    --light_blue: #deebff;
+    --grey: #d9d9d9;
+    --light_grey: #f2f2f2;
 }
 
 .direction_row {
@@ -37,30 +37,30 @@ h3 {
 
 /*header*/
 
-header {
+body > header {
     height: 110px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-header img {
+body > header img {
     width: 61px;
     height: 19px;
 }
 
-header nav {
+body > header nav {
     height: 100%;
     font-size: 1.6rem;
     display: flex;
 }
 
-header nav a {
+body > header nav a {
     padding: 40px;
     border-top: transparent solid 2px;
 }
 
-header nav a:hover {
+body > header nav a:hover {
     color: var(--main_blue);
     border-top: solid var(--main_blue) 2px;
     font-weight: 500;
@@ -69,11 +69,8 @@ header nav a:hover {
 /*search bar*/
 
 form {
-    padding: 20px 0;
-}
-
-form {
     display: flex;
+    padding: 20px 0;
 }
 
 form label i {
@@ -88,9 +85,6 @@ form label i {
 input {
     width: 18%;
     border: solid 1px var(--light_grey);
-}
-
-input[type="text"] {
     font-weight: 700;
     font-size: 1.8rem;
     padding-left: 15px;
@@ -102,7 +96,7 @@ form button {
     border-radius: 0 15px 15px 0;
     font-weight: 700;
     font-size: 1.8rem;
-    color: #ffffff;
+    color: #fff;
 }
 
 form button .desktop_search_button {
@@ -137,7 +131,7 @@ form button .mobile_search_button {
     padding: 0 2%;
     font-weight: 700;
     font-size: 1.7rem;
-    background-color: #ffffff;
+    background-color: #fff;
 }
 
 #filters button i {
@@ -194,6 +188,7 @@ form button .mobile_search_button {
 
 #offers header {
     height: 80px;
+    justify-content: space-between;
 }
 
 #offers header i {
@@ -246,7 +241,7 @@ form button .mobile_search_button {
     height: 17vw;
     max-height: 210px;
     border-radius: 20px;
-    background-color: #ffffff;
+    background-color: #fff;
     box-shadow: 0 0 15px #5a5a5a30;
     display: flex;
     flex-direction: column;
@@ -283,7 +278,7 @@ form button .mobile_search_button {
     height: 12vw;
     max-height: 168px;
     border-radius: 20px;
-    background-color: #ffffff;
+    background-color: #fff;
     box-shadow: 0 0 15px #5a5a5a30;
     display: flex;
     position: relative;
