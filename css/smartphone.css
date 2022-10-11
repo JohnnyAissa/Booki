@@ -68,7 +68,7 @@ form button .mobile_search_button {
 
 #filters button {
     width: 48%;
-    font-size: clamp(13px, 3vw, 20px);
+    font-size: clamp(11px, 2.5vw, 20px);
     overflow: hidden;
 }
 
