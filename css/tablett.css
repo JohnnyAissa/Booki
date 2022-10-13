@@ -22,15 +22,14 @@ input {
 
 #offers header {
     height: 50px;
-    align-items: flex-start;
 }
 
 #offers h3 {
-    font-size: 1.7vw;
+    font-size: 1.5vw;
 }
 
 #offers p {
-    font-size: 1.5vw;
+    font-size: 1.3vw;
 }
 
 #main_offers {
@@ -39,7 +38,7 @@ input {
 }
 
 .main_offers_card {
-    height: 22vw;
+    height: 20vw;
 }
 
 #main_offers .more {
@@ -98,5 +97,14 @@ input {
 }
 
 footer nav {
-    padding-right: 12%;
+    padding-right: 8%;
+    width: 35%;
+}
+
+footer nav h3 {
+    font-size: 1.6rem;
+}
+
+footer nav ul {
+    font-size: 1.4rem;
 }

@@ -107,7 +107,6 @@ form button .desktop_search_button {
 
 form button .mobile_search_button {
     width: 50px;
-    display: flex;
     justify-content: center;
     display: none;
 }
@@ -187,6 +186,7 @@ form button .mobile_search_button {
 }
 
 #offers header {
+    display: flex;
     height: 80px;
     justify-content: space-between;
 }
@@ -194,6 +194,7 @@ form button .mobile_search_button {
 #offers header i {
     color: var(--main_blue);
     font-size: 2rem;
+    display: block;
 }
 
 #main_offers {
@@ -207,12 +208,12 @@ form button .mobile_search_button {
 }
 
 #offers h3 {
-    font-size: min(1.5vw, 19px);
-    padding: 4px 0;
+    font-size: min(1.3vw, 18px);
+    padding: 3px 0;
 }
 
 #offers p {
-    font-size: min(1.3vw, 17px);
+    font-size: min(1.1vw, 15px);
 }
 
 #main_offers .more {
@@ -238,7 +239,7 @@ form button .mobile_search_button {
 
 .main_offers_card {
     width: 100%;
-    height: 17vw;
+    height: 15vw;
     max-height: 210px;
     border-radius: 20px;
     background-color: #fff;
@@ -275,14 +276,14 @@ form button .mobile_search_button {
 
 .sponsored_offers_card {
     width: 100%;
-    height: 12vw;
-    max-height: 168px;
+    height: 10vw;
+    max-height: 140px;
     border-radius: 20px;
     background-color: #fff;
     box-shadow: 0 0 15px #5a5a5a30;
     display: flex;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .sponsored_offers_card img {
@@ -379,12 +380,13 @@ footer {
     padding: 4% 6%;
 }
 
-footer nav h3 {
-    margin-bottom: 10%;
-}
-
 footer nav {
-    padding-right: 16%;
     display: flex;
     flex-direction: column;
+    padding-right: 10%;
+    width: 33%;
+}
+
+footer nav h3 {
+    margin-bottom: 10px;
 }
