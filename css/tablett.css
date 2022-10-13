@@ -20,21 +20,17 @@ input {
     gap: 40px;
 }
 
-#offers header {
-    height: 50px;
-}
-
 #offers h3 {
-    font-size: 1.5vw;
+    font-size: 1.6vw;
 }
 
 #offers p {
-    font-size: 1.3vw;
+    font-size: 1.4vw;
 }
 
 #main_offers {
     width: 100%;
-    padding: 4% 4% 0 4%;
+    padding: 0 4% 0 4%;
 }
 
 .main_offers_card {
@@ -48,7 +44,7 @@ input {
 
 #sponsored_offers {
     width: 100%;
-    padding: 4%;
+    padding: 0 4% 4% 4%;
     margin: 0;
 }
 
