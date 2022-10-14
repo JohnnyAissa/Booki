@@ -30,7 +30,6 @@ input {
 
 #main_offers {
     width: 100%;
-    padding: 0 4% 0 4%;
 }
 
 .main_offers_card {
@@ -44,7 +43,6 @@ input {
 
 #sponsored_offers {
     width: 100%;
-    padding: 0 4% 4% 4%;
     margin: 0;
 }
 

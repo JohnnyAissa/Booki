@@ -28,12 +28,12 @@ body > header nav a {
     justify-content: center;
     align-items: flex-end;
     padding: 0 0 10px 0;
-    border-bottom: solid var(--light_grey) 2px;
+    border-bottom: 2px solid var(--light_secondary_color);
 }
 
 body > header nav a:hover {
     border-top: none;
-    border-bottom: solid var(--main_blue) 2px;
+    border-bottom: 2px solid var(--main_color);
 }
 
 h1 {
@@ -45,7 +45,7 @@ form {
 }
 
 input {
-    width: 75%;
+    width: calc(100% - 100px);
 }
 
 form button .desktop_search_button {
@@ -74,6 +74,7 @@ form button .mobile_search_button {
 
 #filters button i {
     font-size: 2.1rem;
+    margin-right: 5px;
 }
 
 #info {
@@ -100,15 +101,15 @@ form button .mobile_search_button {
 }
 
 #offers h3 {
-    font-size: min(5.3vw, 23px);
+    font-size: min(5vw, 23px);
 }
 
 #offers p {
-    font-size: min(4.6vw, 20px);
+    font-size: min(4.3vw, 20px);
 }
 
 .fa-star {
-    font-size: min(3.9vw, 17px);
+    font-size: min(3.7vw, 17px);
 }
 
 #sponsored_offers_cards {
@@ -127,6 +128,7 @@ form button .mobile_search_button {
 }
 
 #main_offers {
+    padding: 0 4%;
     background-color: #fff;
 }
 

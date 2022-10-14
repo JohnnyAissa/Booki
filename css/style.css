@@ -1,8 +1,8 @@
 :root {
-    --main_blue: #0065fc;
-    --light_blue: #deebff;
-    --grey: #d9d9d9;
-    --light_grey: #f2f2f2;
+    --main_color: #0065fc;
+    --light_color: #deebff;
+    --secondary_color: #d9d9d9;
+    --light_secondary_color: #f2f2f2;
 }
 
 .direction_row {
@@ -57,12 +57,12 @@ body > header nav {
 
 body > header nav a {
     padding: 40px;
-    border-top: transparent solid 2px;
+    border-top: 2px solid transparent;
 }
 
 body > header nav a:hover {
-    color: var(--main_blue);
-    border-top: solid var(--main_blue) 2px;
+    color: var(--main_color);
+    border-top: 2px solid var(--main_color);
     font-weight: 500;
 }
 
@@ -73,25 +73,26 @@ form {
     padding: 20px 0;
 }
 
-form label i {
-    width: 52px;
-    height: 49px;
+form label {
+    width: 50px;
+    height: 50px;
     border-radius: 15px 0 0 15px;
-    background-color: var(--light_grey);
-    padding-left: 20px;
-    padding-top: 23px;
+    background-color: var(--light_secondary_color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 input {
     width: 18%;
-    border: solid 1px var(--light_grey);
+    border: 1px solid var(--light_secondary_color);
     font-weight: 700;
     font-size: 1.8rem;
     padding-left: 15px;
 }
 
 form button {
-    background-color: var(--main_blue);
+    background-color: var(--main_color);
     border: none;
     border-radius: 0 15px 15px 0;
     font-weight: 700;
@@ -125,7 +126,7 @@ form button .mobile_search_button {
 
 #filters button {
     height: 50px;
-    border: solid var(--grey) 2px;
+    border: 2px solid var(--secondary_color);
     border-radius: 25px;
     padding: 0 2%;
     font-weight: 700;
@@ -137,7 +138,7 @@ form button .mobile_search_button {
     font-size: 2.1rem;
     margin-right: 10px;
     width: 25px;
-    color: var(--main_blue);
+    color: var(--main_color);
 }
 
 #filters button span {
@@ -145,7 +146,7 @@ form button .mobile_search_button {
 }
 
 #filters button:hover {
-    background-color: var(--light_blue);
+    background-color: var(--light_color);
 }
 
 /*info*/
@@ -158,8 +159,8 @@ form button .mobile_search_button {
     height: 24px;
     width: 24px;
     min-width: 24px;
-    color: var(--main_blue);
-    border: solid var(--grey) 1px;
+    color: var(--main_color);
+    border: 1px solid var(--secondary_color);
     border-radius: 50%;
     font-size: 12px;
     line-height: 24px;
@@ -181,7 +182,7 @@ form button .mobile_search_button {
 }
 
 .offers_article_background {
-    background-color: var(--light_grey);
+    background-color: var(--light_secondary_color);
     border-radius: 20px;
 }
 
@@ -192,7 +193,7 @@ form button .mobile_search_button {
 }
 
 #offers header i {
-    color: var(--main_blue);
+    color: var(--main_color);
     font-size: 2rem;
     display: block;
 }
@@ -312,11 +313,11 @@ form button .mobile_search_button {
 }
 
 .blue_star {
-    color: var(--main_blue);
+    color: var(--main_color);
 }
 
 .grey_star {
-    color: var(--light_grey);
+    color: var(--light_secondary_color);
 }
 
 /*activities*/
@@ -376,7 +377,7 @@ aside header {
 footer {
     display: flex;
     align-items: flex-start;
-    background-color: var(--light_grey);
+    background-color: var(--light_secondary_color);
     padding: 4% 6%;
 }
 
